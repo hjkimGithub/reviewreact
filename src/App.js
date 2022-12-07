@@ -14,8 +14,6 @@ function App() {
     setToDo("");
   }
 
-  // console.log(toDos);
-
   return <div>
     <form onSubmit={onSubmit}>
       <h1>My ToDos ({toDos.length})</h1>
